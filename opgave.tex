@@ -1,8 +1,10 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
 
 \title{DM500 Eksamensopgaver}
-\author{ Kevin Vinther \and Kasper Beider \and Necati Øztek \and Tue Jensen }
+\author{ Kevin Vinther \and Kasper Halkjær Beider \and Necati Øztek \and Tue Jensen }
 \date{November 2020}
 
 \begin{document}
@@ -14,6 +16,47 @@
 \section{Reeksamen januar 2012 opgave 1}
 
 \section{Reeksamen februar 2015 opgave 1}
+
+\section{Reeksamen februar 2015 opgave 2}
+
+\textbf{Opgave 2:}\\
+\textbf{a)} Hvilke af følgende udsagn er sande?\\
+\textbf{1.} 
+\begin{displaymath}
+\forall x \epsilon \mathbb{N}: \exists y \epsilon \mathbb{N}: x<y
+\end{displaymath}
+\textbf{2.}\begin{displaymath}
+\forall x \epsilon \mathbb{N}: \exists !y \epsilon \mathbb{N}: x<y
+\end{displaymath}
+\textbf{3.}\begin{displaymath}
+\exists y  \epsilon \mathbb{N}: \forall x  \epsilon  \mathbb{N}: x<y
+\end{displaymath}
+Første udsagn er sandt. Det kan man konkludere ved at man altid kan sige \(y = x + 1\). Hvilket vil sige at der altid eksiterer en y-værdi der er større end enhver x-værdi. 
+
+Andet udsagn er falskt, da der ikke eksisterer kun et enkelt y-værdi, som er større end enhver x-værdi. 
+
+Tredje udsagn er også falskt. Det kommer af at man ikke kan vælge en y-værdi, hvorom det altid vil gælde at ethvert x-værdi vil være mindre end y-værdien.
+
+\textbf{b)} Negering af udsagn 1. fra spørgsmål a). Negerings tegnet må ikke indgå i udsagnet. 
+
+\begin{displaymath}
+\forall x \epsilon \mathbb{N}: \exists y \epsilon \mathbb{N}: x<y
+\end{displaymath}
+\begin{displaymath}
+\neg (\forall x \epsilon \mathbb{N}: \exists y \epsilon \mathbb{N}: x<y)
+\end{displaymath}
+\begin{displaymath}
+\exists x \epsilon \mathbb{N}: \neg \exists y \epsilon \mathbb{N}: x<y
+\end{displaymath}
+\begin{displaymath}
+\exists x \epsilon \mathbb{N}: \forall y \epsilon \mathbb{N}: \neg (x<y)
+\end{displaymath}
+\begin{displaymath}
+\exists x \epsilon \mathbb{N}: \forall y \epsilon \mathbb{N}: y<x
+\end{displaymath}
+%Jeg er rimelig sikker på at dette her er rigtigt. 
+
+
 
 \end{document}
 
