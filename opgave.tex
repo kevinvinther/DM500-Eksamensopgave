@@ -4,8 +4,8 @@
 \usepackage{amssymb}
 
 \title{DM500 Eksamensopgaver}
-\author{ Kevin Vinther \and Kasper Halkjær Beider \and Necati Øztek \and Tue Jensen }
-\date{November 2020}
+\author{ Kevin Vinther \and Kasper Halkjær Beider\\kbeid20 \and Necati Øztek \and Tue Jensen}
+\date{15. november 2020}
 
 \begin{document}
 
@@ -64,11 +64,88 @@ Tredje udsagn er også falskt. Det kommer af at man ikke kan vælge en y-værdi,
 \exists x \epsilon \mathbb{N}: \forall y \epsilon \mathbb{N}: \neg (x<y)
 \end{displaymath}
 \begin{displaymath}
-\exists x \epsilon \mathbb{N}: \forall y \epsilon \mathbb{N}: y<x
+\exists x \epsilon \mathbb{N}: \forall y \epsilon \mathbb{N}: x\geq y
 \end{displaymath}
-%Jeg er rimelig sikker på at dette her er rigtigt. 
+
+\section{Reeksamen februar 2015 opgave 3}
+R, S og T er binære relationer på mængden A \(=\lbrace1, 2, 3, 4\rbrace\)
+
+\textbf{Opgave 3:}\\
+\textbf{a)} Lad R \(=\lbrace(1,1), (2,1), (2,2), (2,4), (3,1), (3,3), (3,4), (4,1), (4,4)\rbrace\)
+
+Er R en partiel ordning?\\
 
 
+Definitionen på en partiel ordning er at relationen skal være refleksiv, antisymmetrisk og transitiv. 
+
+\textbf{Refleksiv:} R er refleksiv, da relationen indeholder parrene: \(\lbrace(1,1), (2,2), (3,3), (4,4)\rbrace\)\\
+
+\textbf{Antisymmetrisk:} R er antisymmetrisk, da relationen ikke indeholder nogle par (b,a) når den indeholder (a,b): 
+
+R indeholder parrene = \(\lbrace (2,1), (2,4), (3,1), (3,4), (4,1)\rbrace\), men relationen indeholder ikke parrene = \(\lbrace (1,2), (4,2), (1,3), (4,3), (1,4)\rbrace\). Dermed er relationen antisymmetrisk.  \\
+
+\textbf{Transitiv:} R er transitiv, da der for hvert par (a,b) og (b,c) også er et par (a,c). \\
+
+Eftersom at relationen R opfylder alle tre krav, refleksiv, antisymmetrisk og transitiv, er relationen en partiel ordning. \\
+
+\textbf{b)} Lad S \(=\lbrace(1,2), (2,3), (2,4), (4,2)\rbrace\)
+\\Angiv den transitive lukning af S.
+
+\begin{displaymath}
+t(S) = S \cup \lbrace(1,3), (1,4), (2,2), (4,3), (4,4)\rbrace
+\end{displaymath}
+\\
+\textbf{c)} Lad T \(=\lbrace(1,1), (1,3), (2,2), (2,4), (3,1), (3,3), (4,2), (4,4)\rbrace\)
+\\Angiv T´s ækvivalens-klasser.\\
+\\
+T´s ækvivlaens-klasser på mængeden A findes ved:
+\begin{displaymath}
+[ a ] = \lbrace x \epsilon A \mid xTa \rbrace
+\end{displaymath}
+
+\begin{displaymath}
+[1] = \lbrace 1, 3 \rbrace
+\end{displaymath}
+\begin{displaymath}
+[2] = \lbrace 2, 4 \rbrace
+\end{displaymath}
+\begin{displaymath}
+[3] = \lbrace 1, 3 \rbrace = [1]
+\end{displaymath}
+\begin{displaymath}
+[4] = \lbrace 2, 4 \rbrace = [2]
+\end{displaymath}
+\\
+\textbf{Matricerne for R, S og T:}
+\\
+\textbf{Matrice for R:}
+\begin{displaymath}
+\begin{bmatrix}
+1 & 0 & 0 & 0\\
+1 & 1 & 0 & 1\\
+1 & 0 & 1 & 1\\
+1 & 0 & 0 & 1\\
+\end{bmatrix}
+\end{displaymath}
+\\
+\textbf{Matrice for S:}
+\begin{displaymath}
+\begin{bmatrix}
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 1\\
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+\end{bmatrix}
+\end{displaymath}\\
+\textbf{Matrice for T:}
+\begin{displaymath}
+\begin{bmatrix}
+1 & 0 & 1 & 0\\
+0 & 1 & 0 & 1\\
+1 & 0 & 1 & 0\\
+0 & 1 & 0 & 1\\
+\end{bmatrix}
+\end{displaymath}
 
 \end{document}
 
