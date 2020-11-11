@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.10)  11 NOV 2020 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.10)  11 NOV 2020 17:49
 entering extended mode
 **./opgave.tex
 (opgave.tex
@@ -190,7 +190,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--102
 Here is how much of TeX's memory you used:
  1588 strings out of 479799
  21025 string characters out of 2869247
- 288918 words of memory out of 3000000
+ 288906 words of memory out of 3000000
  18607 multiletter control sequences out of 15000+200000
  544023 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -209,7 +209,7 @@ lic/amsfonts/cm/cmr7.pfb><C:/Users/Kasper/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kasper/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Kasper/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on opgave.pdf (4 pages, 127268 bytes).
+Output written on opgave.pdf (4 pages, 126779 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
